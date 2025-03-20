@@ -9,12 +9,13 @@ const showpoke = async function () {
 <p id="poke-name">${pokemonInfos.nomepokemon}</p>
 <p id="poke-id">${pokemonInfos.idpokemon}</p>
 </div>
-
+<div id='pokeimgbox'>
 <img
 src="${pokemonInfos.spritepokemon}"
 alt="${pokemonInfos.nomepokemon}"
 id="pokemon-img"
 />
+</div>
 <p id="poke-info">
 ${pokemonInfos.description}
 </p>`;
